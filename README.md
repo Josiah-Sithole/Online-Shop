@@ -8,28 +8,28 @@ It was created as an online shop  that is user friendly and helps those who stru
 The project shows gadgets from a local brand J-Sithy created by the owner Josiah Sithole, and the prices are random numbers used.  
 
 ## Table of Contents 
- -General Info
+ *General Info
    **Shopping Cart Info
- -Technologies   
- -Installation
+ *Technologies   
+ *Installation
     **How to install this project
  *Usage   
- -Contact  
- -Reference
+ *Contact  
+ *Reference
  
 ## Technologies 💻  
 
    **adding Javascript to Html and CSS brings a much more functional webpage that is user friendly than a static one. 
    **So the webpage was created using;
-       -HTML 
-       -CSS
-       -JavaScript
+       *HTML 
+       *CSS
+       *JavaScript
        
   ## Installation
   
-    -Step 1 - Clone the repo
-    -Step 2 - should have a text editor installed first
-    -Step 3 - Should not rename files and all files should have their extensions checked 
+    *Step 1 - Clone the repo
+    *Step 2 - should have a text editor installed first
+    *Step 3 - Should not rename files and all files should have their extensions checked 
   
   ## Usage 
   
@@ -49,10 +49,10 @@ The project shows gadgets from a local brand J-Sithy created by the owner Josiah
   ## Reference
   
     **This project was created using information from varies of sources and their links will be provided below:
-     -[Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
-     -[w3School](https://www.w3schools.com/js/).
-     -[Youtube Tutorial](https://www.youtube.com/watch?v=023Psne_-_4&t=1500s).
-     -[Font Awesome](https://fontawesome.com/).
-     -[Pinterest Images](https://za.pinterest.com/). 
+     *[Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
+     *[w3School](https://www.w3schools.com/js/).
+     *[Youtube Tutorial](https://www.youtube.com/watch?v=023Psne_-_4&t=1500s).
+     *[Font Awesome](https://fontawesome.com/).
+     *[Pinterest Images](https://za.pinterest.com/). 
 
 
