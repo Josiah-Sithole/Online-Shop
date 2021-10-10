@@ -10,10 +10,10 @@
  ## Table of Contents 
 
    * General Info
-     Shopping Cart Info
+     - Shopping Cart Info
    * Technologies   
    * Installation
-     How to install this project
+     - How to install this project
    * Usage   
    * Contact  
    * Reference
@@ -21,10 +21,10 @@
  ## Technologies 💻 
   
    * adding Javascript to Html and CSS brings a much more functional webpage that is user friendly than a static one. 
-   * * So the webpage was created using;
-   * HTML         
-   * CSS     
-   * JavaScript
+   * So the webpage was created using;
+     - HTML         
+     - CSS     
+     - JavaScript
 
  ## Installation
   
