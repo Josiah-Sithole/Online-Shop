@@ -7,7 +7,7 @@ This shopping cart was created with the aim of learning JavaScript functions and
 It was created as an online shop  that is user friendly and helps those who struggle to order gadgets online since the information and details provided in the project are straight forward. 
 The project shows gadgets from a local brand J-Sithy created by the owner Josiah Sithole, and the prices are random numbers used.  
 
-## Table of Contents
+## Table of Contents 
  *General Info
    **Shopping Cart Info
  *Technologies   
