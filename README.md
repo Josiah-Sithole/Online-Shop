@@ -10,7 +10,7 @@
  ## Table of Contents 
 
    * [General Info](#capstone2-)
-   * [Technologies](#Technologies)   
+   * [Technologies](#technologies 💻)   
    * [Installation](#installation)
    * [Usage](#usage)   
    * [Contact](#contact)  
