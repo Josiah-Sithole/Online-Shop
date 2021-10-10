@@ -10,10 +10,8 @@
  ## Table of Contents 
 
    * [General Info](#capstone2-)
-     - [Shopping Cart Info](#shopping Cart)
    * [Technologies](#technologies)   
    * [Installation](#installation)
-     - [How to install this project](#steps to use the code)
    * [Usage](#usage)   
    * [Contact](#contact)  
    * [Reference](#reference)
