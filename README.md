@@ -10,10 +10,10 @@
  ## Table of Contents 
 
    * General Info
-   ** Shopping Cart Info
+   * Shopping Cart Info
    * Technologies   
    * Installation
-   ** How to install this project
+   * How to install this project
    * Usage   
    * Contact  
    * Reference
@@ -40,13 +40,14 @@
   * The screenshots help in providing the visual graphic before the actual code is used by anyone.
   
   ** Screenshot in action
-  ** ![First step: Home Page](./images/homepage.jpg)
   
-  ** ![Second Step: Cart Section](./images/cartSection.jpg)
+   ![First step: Home Page](./images/homepage.jpg)
   
-  ** ![Third Step: Confirm Order Clicked](./images/confirmOrder.jpg)
+   ![Second Step: Cart Section](./images/cartSection.jpg)
   
-  ** ![Fourth Step: Coupon Code generated](./images/coupon.jpg)
+   ![Third Step: Confirm Order Clicked](./images/confirmOrder.jpg)
+  
+   ![Fourth Step: Coupon Code generated](./images/coupon.jpg)
 
   ## Contact
 
@@ -56,16 +57,16 @@
      
   ## Reference
   
-  ** This project was created using information from varies of sources and their links will be provided below:
+  * This project was created using information from varies of sources and their links will be provided below:
   
-  * [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
+  * [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
   
-  * [w3School](https://www.w3schools.com/js/).
+  * [w3School](https://www.w3schools.com/js/)
   
-  * [Youtube Tutorial](https://www.youtube.com/watch?v=023Psne_-_4&t=1500s).
+  * [Youtube Tutorial](https://www.youtube.com/watch?v=023Psne_-_4&t=1500s)
   
-  * [Font Awesome](https://fontawesome.com/).
+  * [Font Awesome](https://fontawesome.com/)
   
-  * [Pinterest Images](https://za.pinterest.com/). 
+  * [Pinterest Images](https://za.pinterest.com/) 
 
 
