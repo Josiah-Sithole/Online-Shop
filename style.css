@@ -1,0 +1,799 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*enabled a much more smooth scroll of the html page*/
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-variant: small-caps;
+}
+
+/*the brand name for this page when hovered show a different color to the present*/
+.navbar-brand:hover {
+  color: yellowgreen;
+  top: 12px;
+  bottom: -25px;
+}
+
+/*letter spacing on ul list gives space among the alphabet words*/
+.nav-link {
+  margin: 0 10px 0 10px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+/*when hovered the navbar text show different color of the text*/
+.nav-link:hover {
+  color: greenyellow;
+  top: 12px;
+  bottom: -25px;
+  border-radius: 2px;
+}
+
+/*DROPDOWN MENU starts here*/
+
+.dropDownMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*li should be positioned relative to the parent (services)*/
+.dropDownMenu li {
+  position: relative;
+
+}
+
+.dropDownMenu a {
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropDownMenu a:hover {
+  background: #000;
+}
+
+
+.dropDownMenu>li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -4px;
+  /* solve the 4 pixels spacing between list-items */
+}
+
+.dropDownMenu>li:first-child {
+  margin-left: 0;
+}
+
+/*box-shadow enables to cast a drop shadow from the frame of almost any element.*/
+.dropDownMenu ul {
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dropDownMenu>li>ul {
+  text-align: left;
+  display: none;
+  background: white;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  z-index: 999999;
+}
+
+
+/* this color shows on the nav links when hovered*/
+.nav-link.active {
+  color: yellowgreen;
+}
+
+/*imaged used is from pinterest*/
+/*https://za.pinterest.com/*/
+.main {
+  background-image: url(./images/mainpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+/*css for customer review section below*/
+/*customer profile*/
+.profile-area {
+  padding: 80px 0;
+}
+
+.card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+/*image used from pinterest*/
+/*https://za.pinterest.com/*/
+.img1 {
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 100%;
+  background-image: url(./images/backcustomer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* images hover with the direction top being set*/
+.img2 img:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  top: -20px;
+  filter: brightness(90%);
+  filter: grayscale(70%);
+
+}
+
+/*circle shaped images*/
+.img2 img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 7px solid yellow;
+  margin-top: -80px;
+}
+
+/* css for the cards in the customer review section*/
+.my-team h2 {
+  font-size: 2rem;
+  color: rgb(247, 239, 239);
+
+}
+
+.card:hover .img2 img {
+  border-color: rgb(80, 79, 79);
+  transition: 0.8s;
+}
+
+/*cards hover to the top when the mouse is placed on top of them*/
+.card:hover {
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  top: -20px;
+}
+
+.card {
+  margin: 10px 10px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+/*main text of the cards with some css applied*/
+.main-text {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.main-text h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0 0 20px;
+  color: black;
+}
+
+.main-text p {
+  font-size: 16px;
+  padding: 0 35px;
+  color: black;
+  font-weight: lighter;
+
+}
+
+/*css being applied to the social media icons*/
+.socials {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.socials i {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+
+/*Trending Products Section */
+#trending-products {
+  background-color: #dbe5e6;
+  padding: 30px 0px;
+}
+
+#trending-products h3 {
+  font-weight: lighter;
+  color: black;
+  font-size: 30px;
+  padding: 5px;
+
+}
+
+.card-title {
+  font-size: 1rem;
+  font-variant: small-caps;
+}
+
+.title {
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.title p {
+  font-size: 18px;
+  color: rgb(155, 134, 134);
+}
+
+.card-text,
+p {
+  color: black;
+}
+
+.card-body {
+  box-shadow: 4px 4px 4px 4px #353535;
+  color: black;
+  font-weight: bolder;
+}
+
+.card-body a {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: auto;
+  font-weight: lighter;
+  padding: 4px;
+  color: #000;
+  background-color: aliceblue;
+}
+
+.card-body a:hover {
+  text-decoration: none;
+  color: forestgreen;
+  border-radius: 12px;
+  justify-content: center;
+}
+
+/*----JQuery effects------*/
+
+/*hide and show buttons in the footer and this is the css applied*/
+#hide,
+#show {
+  color: rgb(88, 136, 88);
+  background-color: black;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 1px;
+}
+
+/*-------CART PAGE CSS HERE-----*/
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+ion-icon {
+  padding-top: 1px;
+  justify-content: space-around;
+  font-weight: lighter;
+}
+
+nav li span {
+  padding-left: 5px;
+}
+
+nav li #spanInCart {
+  padding-left: 5px;
+  float: right;
+  margin-top: -2rem;
+  color: darkblue;
+}
+
+.cart a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.cart a:hover {
+  color: yellowgreen;
+}
+
+.add-cart {
+  box-shadow: 0px 0px 2px 2px;
+  border-radius: 1px;
+  color: black;
+  font-variant: small-caps;
+  cursor: pointer;
+  background-color: rgb(139, 139, 122);
+}
+
+.products-container {
+  max-width: 650px;
+  /*justify-content: space-around;*/
+  margin: 50px;
+  margin-top: 50px;
+  /*justify-content: center;*/
+  padding-bottom: 100px;
+  flex-wrap: wrap;
+  /*display: flex;*/
+  float: center;
+  height: 40rem;
+
+}
+
+.products-container ion-icon {
+  font-size: 25px;
+  color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 2px solid lightgrey;
+  margin-top: 0 auto;
+  text-align: justify;
+  margin-top: 2.8rem;
+}
+
+.product-title {
+  width: 50%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.price {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-right: -4rem;
+  margin: auto;
+}
+
+.quantity {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.total,
+.vat {
+  margin: 20px 0;
+  text-align: right;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: lightgrey solid 2px;
+  padding: 10px 0;
+
+}
+
+.products img {
+  width: 75px;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.basketTotalTitle {
+  width: 30%;
+
+}
+
+.basketTotal {
+  width: 50%;
+  margin-top: 50px;
+}
+
+image {
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media(max-width: 500px) {
+  nav h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    ;
+  }
+
+  .products,
+  .product-header {
+    justify-content: center;
+  }
+}
+
+@media(max-width: 500px) {
+
+  .sm-hide {
+    display: none;
+  }
+
+  .products,
+  .product-header {
+    justify-content: center;
+  }
+
+}
+
+/*-------CHECKOUT STARTS HERE-----------------*/
+
+.checkout {
+  width: 50%;
+  margin: auto;
+  height: 50px;
+  padding-top: .5em;
+  margin-top: .5em;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border: solid 2px #232323;
+  color: white;
+  border-radius: 0.2em;
+  cursor: pointer;
+  background: green;
+  margin-left: -0.5rem;
+
+}
+
+/* -------------CHECKOUT POPUP BOX------------------- */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.wrapper {
+  background-color: white;
+  width: 50%;
+  box-shadow: 5px 5px 5px black;
+  border-bottom: 1px solid white;
+  margin: 1% auto 2% auto;
+  animation: animatezoom .6s;
+  float: center;
+}
+
+.wrapper:before {
+  background-size: 21px 32px;
+  content: "";
+  display: block;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 15px;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+}
+
+.bill-content {
+  width: 95%;
+  margin: auto;
+}
+
+.price-total1 {
+  background: black;
+  font-size: 1.5em;
+  text-align: center;
+  color: yellow;
+  font-weight: 800;
+  padding: 5px 0;
+  margin: 15px 0;
+}
+
+.price-total span {
+  font-size: .75em;
+  color: white;
+}
+
+.form-text {
+  padding: 5px;
+  display: block;
+}
+
+form {
+  margin: 0 -5px;
+}
+
+label {
+  display: block;
+  font-size: .9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  border: 3px solid black;
+  width: 95%;
+  padding: 7px;
+  font-size: 1.1em;
+}
+
+.input:focus {
+  outline: 0;
+  background: cyan;
+}
+
+.wrapper button {
+  font-size: 1.2em;
+  padding: 10px;
+  border: 0;
+  line-height: 1.6;
+  box-shadow: 1px 1px 0 black;
+  cursor: pointer;
+  background: yellow;
+  transition: ease-in all .3s;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.wrapper button:hover,
+.wrapper button:focus {
+  background: black;
+  color: yellow;
+  box-shadow: 1px 1px 0 yellow;
+  outline: none;
+}
+
+#coupon {
+  border: 3px solid black;
+  background: yellow;
+  color: black;
+  box-shadow: none;
+  border-radius: 4px;
+  animation: shrink 1s infinite;
+  border-radius: 0.5rem;
+  font-variant: small-caps;
+}
+
+#coupon:hover {
+  animation: none;
+  background: black;
+  color: yellow;
+  border: 3px solid white;
+}
+
+#end {
+  float: right;
+  margin-right: 10px;
+}
+
+.close {
+  float: right;
+  margin-right: 10px;
+  margin-top: -10px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#col01,
+#col02 {
+  width: 46.5%;
+  float: left;
+}
+
+#col02 {
+  margin-left: 2%;
+}
+
+@media screen and (max-width:325px) {
+  .bin span {
+    width: 70%;
+  }
+
+  #coupon,
+  #end {
+    width: 100%;
+  }
+
+  #end {
+    width: 90%;
+    margin: 10px
+  }
+}
+
+@media screen and (max-width:380px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  input {
+    width: 94%;
+  }
+
+  #col01,
+  #col02 {
+    width: 97%;
+  }
+
+  #col02 {
+    margin-left: 0;
+  }
+}
+
+#optional {
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  text-align: left;
+  padding-top: 2rem;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+
+
+
+
+}
+
+/*---FOOTER SETCION------------*/
+/*footer information placed in segments to avoid overflow words */
+
+.footer-top {
+  background-color: #111;
+  padding: 100px 0;
+}
+
+.segment-one h3 {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 28px;
+  text-transform: uppercase;
+
+}
+
+.segment-two h2 {
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+/*before selector inserts something before the content of each selected element*/
+/*https://www.w3schools.com/cssref/sel_before.asp*/
+.segment-two h2:before {
+  content: "I";
+  color: #c65039;
+  padding-right: 15px;
+}
+
+.segment-two ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segment-two ul li {
+  border-bottom: 1px solid white;
+  line-height: 40px;
+}
+
+/*removing style on unordered list&*/
+.segment-two ul li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.segment-three h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-three h2:before {
+  content: "I";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-three a {
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 10%;
+}
+
+/*social media icons placed into circled boxed by padding-right of 12px */
+.segment-three a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.segment-four h2 {
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.segment-four h2:before {
+  content: "I";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-four form input[type="submit"] {
+  background: #c65039;
+  border: 2px solid black;
+  padding: 2px 4px;
+  margin-left: -6px;
+  color: #fff;
+  font-weight: lighter;
+  font-variant: small-caps;
+}
+
+footer,
+p {
+  color: #999;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+footer,
+h2 {
+  font-size: 1rem;
+}
+
+.footer-copyright {
+  text-align: center;
+  background-color: #000;
+  line-height: 75px;
+  color: cornsilk;
+}

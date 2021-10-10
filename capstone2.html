@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style data-styles>
+        ion-icon {
+            visibility: hidden;
+        }
+
+        .hydrated {
+            visibility: inherit;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--custom css-->
+    <title>Capstone Project II</title>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body>
+    <!--a responsive navbar from bootstrap-->
+    <!--background image from google added on the page. Image is in the image file-->
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <ion-icon name="medal"></ion-icon>J-Sithy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse menuBackground" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto dropDownMenu">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="capstone2.html">Home</a></i>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                        <ul>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Availability</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
+                    <li class="cart">
+                        <a href="cart.html">
+                            <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!--end of navbar-->
+    <!--the introductory section of  the online shop-->
+    <!--transparent jumbotron with some added text-->
+
+    <section class="main">
+        <div class="container py-4">
+            <div class="row py-5">
+                <div class="col-1g-7 pt-5 text-center">
+
+                    <div class="jumbotron bg-transparent">
+                        <div class="row">
+                            <h1 style="color: white; font-family: Roboto" class="hello">Hello! All Gadgets Are Available
+                            </h1>
+                            <p style="color: white; font-family: Roboto; font-size: 1rem" class="p1">Over the past 10
+                                years we have
+                                seen the increase in our sales</p>
+                        </div>
+                        <p class="lead" style="color: white;"> During the time period 2009-2019 we have had a rapid in
+                            increase in sales</p>
+                        <hr class="my-4 bg-warning">
+                        <p style="color: white; font-family: Roboto; font-size: 1rem">Its a pleasure for us that you
+                            have found time to look at our shop and to get a quotation submit your list below.</p>
+                        <a class="btn btn-outline-info btn-lg" href="#" role="button" id="btn">SUBMIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of section-->
+
+    <!--three cards in the section with some random text-->
+    <!--the cards show the section of individuals associated with the shop-->
+    <!--images used are from google-->
+
+    <section class="my-team bg-dark">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-6 m-auto text-center">
+                    <h2>Customer Reviews</h2>
+                    <hr class="my-4 bg-warning">
+                </div>
+            </div>
+        </div>
+
+        <!--paragraphs information is not in detail but its only used to explain the images on the cards. 
+            Also to help in the direction of the page-->
+        <!--names used on cards under team are not real names-->
+
+        <div class="profile-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="img1"></div>
+                            <div class="img2"><img src="./images/watch1.jpg" alt="watch1"></div>
+                            <div class="main-text">
+                                <h2>Watch 1</h2>
+                                <p>A much more reliable shop and they always treat customers well. Get in touch with
+                                    them
+                                    in one of the social media platforms</p>
+                            </div>
+                            <div class="socials">
+                                <i class="fa fa-facebook" style="color: blue;"></i>
+                                <i class="fa fa-youtube" style="color: red;"></i>
+                                <i class="fa fa-linkedin" style="color: navy;"></i>
+                                <i class="fa fa-twitter" style="color: rgb(0, 177, 247);"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="img1"></div>
+                            <div class="img2"><img src="./images/watch2.jpg" alt="watch2"></div>
+                            <div class="main-text">
+                                <h2>watch ii</h2>
+                                <p>Most of the watches i have ordered here are always the right ones. I encourage anyone
+                                    to try J-Sithy online shop at anytime</p>
+                            </div>
+                            <div class="socials">
+                                <i class="fa fa-facebook" style="color: blue;"></i>
+                                <i class="fa fa-youtube" style="color: red;"></i>
+                                <i class="fa fa-linkedin" style="color: navy"></i>
+                                <i class="fa fa-twitter" style="color: rgb(0, 177, 247)"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="img1">""</div>
+                            <div class="img2"><img src="./images/watch3.jpg" alt="watch3"></div>
+                            <div class="main-text">
+                                <h2>watch iii</h2>
+                                <p>I cant stop ordering from this shop because all the time my gadgets are delivered on
+                                    time. I wont hesitate to buy from this shop.</p>
+                            </div>
+                            <div class="socials">
+                                <i class="fa fa-facebook" style="color: blue;"></i>
+                                <i class="fa fa-youtube" style="color: red;"></i>
+                                <i class="fa fa-linkedin" style="color: navy;"></i>
+                                <i class="fa fa-twitter" style="color: rgb(0, 177, 247);"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--end  of section with jumbotron-->
+
+    <!--start of section-->
+    <!--https://www.youtube.com/watch?v=qmPmwdshCMw-->
+    <!--the prices used are only for this page-->
+    <!---images from google and they are also in the images file on this project-->
+    <!--https://getbootstrap.com/docs/5.1/components/card/-->
+
+    <section id="trending-products">
+        <div class="container">
+            <!--a container to hold cards to get and keep them in one focused area-->
+            <div class="title">
+                <h3>Trending Products</h3>
+                <p>Rely on our market intelligence platform to get the latest trends on our new brand and
+                    anticipate the future of the sector.</p>
+            </div>
+            <hr style="color: rgb(0, 177, 247);">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card1 text-center">
+                        <img src="./images/headphones.jpg" class="card-img-top" id="image1" style="width: 270ppx;"
+                            alt="head phones">
+
+                        <div class="card-body">
+                            <hr>
+                            <h4 class="card-title">Head Phones</h4>
+                            <p class="card-text">One of the strongest head phones that you can find in this shop. 1 each
+                                costing.</p>
+                            <p style="color: green;">$10</p>
+                            <a class="add-cart cart1" href="#">Add Cart</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card1 text-center">
+                        <img src="./images/watch.jpg" class="card-img-top" id="image2" style="width: 270ppx;"
+                            alt="watch">
+                        <div class="card-body">
+                            <hr>
+                            <h4 class="card-title">Watch</h4>
+                            <p class="card-text">We also fix and repair watch at our workshop. The prices used are not
+                                real.</p>
+                            <p style="color: green;">$20</p>
+
+                            <a class="add-cart cart2" href="#">Add Cart</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card1 text-center">
+                        <img src="./images/powerbank.jpg" id="image3" class="card-img-top" style="width: 270ppx;"
+                            alt="power bank">
+                        <div class="card-body">
+                            <hr>
+                            <h4 class="card-title">Power Bank</h4>
+                            <p class="card-text">Brand new power banks are also available in the store. Add to cart
+                                here.</p>
+                            <p style="color: green;">$15</p>
+
+                            <a class="add-cart cart3" href="#">Add Cart</a>
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <hr style="font-weight: bolder; color: cyan">
+
+                <!--horizontal rule under the first column of cards-->
+                <!--the order now button is linked directly with the image on the page-->
+                <div class="col-md-4">
+                    <div class="card1 text-center">
+                        <img src="./images/huawei.jpg" class="card-img-top" id="image4" style="width: 270ppx;"
+                            alt="mate9">
+                        <div class="card-body">
+                            <hr>
+                            <h4 class="card-title">Huawei P9lus</h4>
+                            <p class="card-text">We also fix these high quality phones.(4 x R30 get R10
+                                discount. Get your favourite huawei phone on discount.
+                                you buy 4).</p>
+                            <p style="color: green;">$10</p>
+
+                            <a class="add-cart cart4" href="#">Add Cart</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card1 text-center">
+                        <img src="./images/charger.jpg" class="card-img-top" id="image5" style="width: 270ppx;"
+                            alt="charger">
+                        <div class="card-body">
+                            <hr>
+                            <h4 class="card-title">Charger</h4>
+                            <p class="card-text">All huawei car charger fit perfectly on any model or brand of a car.
+                                Place your
+                                order to get one for your car.</p>
+                            <p style="color: green;">$18</p>
+
+                            <a class="add-cart cart5" href="#">Add Cart</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card1 text-center">
+                        <img src="./images/macbook.jpg" class="card-img-top" id="images6" style="width: 270ppx;"
+                            alt="macbook">
+                        <div class="card-body">
+                            <hr>
+                            <h4 class="card-title">Mac Pro</h4>
+                            <p class="card-text">All that we research we keep as data and we place it safe in these
+                                macbook laptop. Its also easy to use...
+                                Data should be keep safe.</p>
+                            <p style="color: green;">$25</p>
+                            <a class="add-cart cart6" href="#">Add Cart</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--https://getbootstrap.com/docs/5.1/examples/footers/-->
+    <!--footer section-->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+                        <h3>J-Sithy Brand</h3>
+                        <p>Our brand has developed to be a major force in the 21st century.</p>
+                        <p>Its really one of the top in terms of gadget sales per year</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+                        <h2>More Details</h2>
+                        <ul>
+                            <li><a href="#">Game Day</a></li>
+                            <li><a href="#">Support Us</a></li>
+                            <li><a href="#">How to create Apps</a></li>
+                            <li><a href="#">Career</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs segment-three">
+                        <h2>Contact Me</h2>
+                        <p>Please feel free to send me an email on the red envelope below.</p>
+                        <a href="mailto:sitholejosiah7@gmail.com" target="_blank"><i class="fa fa-envelope"
+                                style="color:red;"></i></a>
+                        <a href=""><i class="fa fa-twitter" style="color: rgb(0, 177, 247);"></i></a>
+                        <a href=""><i class="fa fa-instagram" style="color: pink;"></i></a>
+                        <a href=""><i class="fa fa-facebook" style="color: blue;"></i></a><br>
+                        <button id="hide">Hide Text</button>
+                        <button id="show">Show Text</button>
+
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs segment-four">
+                        <h2>Our newsLetter</h2>
+                        <p>Welcome to subscribe email newsletter to us, get the lastest products and news information
+                            from us!</p>
+                        <form action="#">
+                            <input type="email"><input type="submit" value="Subscribe">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-copyright">All Rights Reserved by &copy;J-Sithy.2021</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="capstone2.js" type="text/javascript" async></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
