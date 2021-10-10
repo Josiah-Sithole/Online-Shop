@@ -20,8 +20,8 @@
  
  ## Technologies 💻 
   
-   ** adding Javascript to Html and CSS brings a much more functional webpage that is user friendly than a static one. 
-   ** So the webpage was created using;
+   * adding Javascript to Html and CSS brings a much more functional webpage that is user friendly than a static one. 
+   * So the webpage was created using;
    * HTML         
    * CSS     
    * JavaScript
@@ -39,7 +39,7 @@
   * With the screenshots with shopping cart shows how the webpage navigates from the home page up until to the point the get coupon generates the code
   * The screenshots help in providing the visual graphic before the actual code is used by anyone.
   
-  ** Screenshot in action
+  ### Screenshot in action
   
    ![First step: Home Page](./images/homepage.jpg)
   
@@ -51,13 +51,13 @@
 
   ## Contact
 
-  ** [Email](sitholejosiah7@gmail.com)
+  [Email](sitholejosiah7@gmail.com)
   
-  ** [Phone number](+27603191619)
+  [Phone number](+27603191619)
      
   ## Reference
   
-  * This project was created using information from varies of sources and their links will be provided below:
+  #### This project was created using information from varies of sources and their links will be provided below:
   
   * [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
   
