@@ -10,10 +10,10 @@
  ## Table of Contents 
 
    * General Info
-   * * Shopping Cart Info
+     Shopping Cart Info
    * Technologies   
    * Installation
-   * * How to install this project
+     How to install this project
    * Usage   
    * Contact  
    * Reference
