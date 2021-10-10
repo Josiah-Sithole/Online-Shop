@@ -10,49 +10,62 @@
  ## Table of Contents 
 
    * General Info
-         * * Shopping Cart Info
+   ** Shopping Cart Info
    * Technologies   
    * Installation
-      ** How to install this project
+   ** How to install this project
    * Usage   
    * Contact  
    * Reference
  
-  ## Technologies 💻 
+ ## Technologies 💻 
   
    ** adding Javascript to Html and CSS brings a much more functional webpage that is user friendly than a static one. 
-    ** So the webpage was created using;
-         * HTML 
-         * CSS
-         * JavaScript
+   ** So the webpage was created using;
+   * HTML         
+   * CSS     
+   * JavaScript
 
-  ## Installation
+ ## Installation
+  
    * Step 1 - Clone the repo
+   
    * Step 2 - should have a text editor installed first
+   
    * Step 3 - Should not rename files and all files should have their extensions checked 
 
   ## Usage 
 
-   * With the screenshots with shopping cart shows how the webpage navigates from the home page up until to the point the get coupon generates the code
-    * The screenshots help in providing the visual graphic before the actual code is used by anyone.
-           ** Screenshot in action
-           ** ![First step: Home Page](./images/homepage.jpg)
-           ** ![Second Step: Cart Section](./images/cartSection.jpg)
-           ** ![Third Step: Confirm Order Clicked](./images/confirmOrder.jpg)
-           ** ![Fourth Step: Coupon Code generated (onclick)](./images/coupon.jpg)
+  * With the screenshots with shopping cart shows how the webpage navigates from the home page up until to the point the get coupon generates the code
+  * The screenshots help in providing the visual graphic before the actual code is used by anyone.
+  
+  ** Screenshot in action
+  ** ![First step: Home Page](./images/homepage.jpg)
+  
+  ** ![Second Step: Cart Section](./images/cartSection.jpg)
+  
+  ** ![Third Step: Confirm Order Clicked](./images/confirmOrder.jpg)
+  
+  ** ![Fourth Step: Coupon Code generated](./images/coupon.jpg)
 
   ## Contact
 
-   ** [Email](sitholejosiah7@gmail.com)
-   ** [Phone number](+27603191619)
+  ** [Email](sitholejosiah7@gmail.com)
+  
+  ** [Phone number](+27603191619)
      
   ## Reference
   
-   ** This project was created using information from varies of sources and their links will be provided below:
-       * [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
-       * [w3School](https://www.w3schools.com/js/).
-       * [Youtube Tutorial](https://www.youtube.com/watch?v=023Psne_-_4&t=1500s).
-       * [Font Awesome](https://fontawesome.com/).
-       * [Pinterest Images](https://za.pinterest.com/). 
+  ** This project was created using information from varies of sources and their links will be provided below:
+  
+  * [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
+  
+  * [w3School](https://www.w3schools.com/js/).
+  
+  * [Youtube Tutorial](https://www.youtube.com/watch?v=023Psne_-_4&t=1500s).
+  
+  * [Font Awesome](https://fontawesome.com/).
+  
+  * [Pinterest Images](https://za.pinterest.com/). 
 
 
