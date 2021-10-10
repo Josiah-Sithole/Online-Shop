@@ -40,14 +40,16 @@
   * The screenshots help in providing the visual graphic before the actual code is used by anyone.
   
     - Screenshot in action
-    -
-    #### First Step
+   #### Home Page
    ![First step: Home Page](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/homepage.jpeg)
   
+   #### Cart Section 
    ![Second Step: Cart Section](./images/cartSection.jpg)
   
+   #### Confirm Order 
    ![Third Step: Confirm Order Clicked](./images/confirmOrder.jpg)
   
+   #### Coupon
    ![Fourth Step: Coupon Code generated](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/coupon.jpeg)
 
   ## Contact
