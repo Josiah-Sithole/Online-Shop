@@ -39,8 +39,9 @@
   * With the screenshots with shopping cart shows how the webpage navigates from the home page up until to the point the get coupon generates the code
   * The screenshots help in providing the visual graphic before the actual code is used by anyone.
   
-  ### Screenshot in action
-  
+    - Screenshot in action
+    -
+    #### First Step
    ![First step: Home Page](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/homepage.jpeg)
   
    ![Second Step: Cart Section](./images/cartSection.jpg)
