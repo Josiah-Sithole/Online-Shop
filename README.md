@@ -39,7 +39,7 @@
   
     - Screenshot in action
    #### Home Page
-   ![First step: Home Page](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/homepage.jpeg)
+   ![First step: Home Page](./images/homepage.jpg)
   
    #### Cart Section 
    ![Second Step: Cart Section](./images/cartSection.jpg)
