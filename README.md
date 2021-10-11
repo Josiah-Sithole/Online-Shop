@@ -42,7 +42,7 @@
    ![First step: Home Page](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/homepage.png)
   
    #### Cart Section 
-   ![Second Step: Cart Section](./images/cartSection.jpg)
+   ![Second Step: Cart Section](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/cartSection.png)
   
    #### Confirm Order 
    ![Third Step: Confirm Order Clicked](./images/confirmOrder.jpg)
