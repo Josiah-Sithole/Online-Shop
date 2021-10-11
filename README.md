@@ -45,7 +45,7 @@
    ![Second Step: Cart Section](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/cartSection.png)
   
    #### Confirm Order 
-   ![Third Step: Confirm Order Clicked](./images/confirmOrder.jpg)
+   ![Third Step: Confirm Order Clicked](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/confirmOrder.png)
   
    #### Coupon
    ![Fourth Step: Coupon Code generated](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/coupon.jpeg)
