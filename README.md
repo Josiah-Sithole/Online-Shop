@@ -48,7 +48,7 @@
    ![Third Step: Confirm Order Clicked](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/confirmOrder.png)
   
    #### Coupon
-   ![Fourth Step: Coupon Code generated](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/coupon.jpeg)
+   ![Fourth Step: Coupon Code generated](https://github.com/Josiah-Sithole/Capstone2-/blob/main/images/coupon.png)
 
   ## Contact
 
