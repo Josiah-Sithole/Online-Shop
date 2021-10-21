@@ -1,4 +1,4 @@
-# Capstone2-
+# Online Shop-
 
 # Shopping Cart 🛒 
  This project is a functional shopping cart created using Html, CSS and JavaScript. 
