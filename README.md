@@ -55,6 +55,8 @@
   * [Email](sitholejosiah7@gmail.com)
   
   * [Phone number](+27603191619)
+  
+  * * [LinkedIN](https://www.linkedin.com/in/josiah-sithole-40480b222/)
      
   ## Reference
   
